@@ -1,0 +1,70 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-30 23:45:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-31 08:02:00
+*/
+
+/* 合作伙伴 */
+div.teamTitle_bg {
+    background: url(../../images/about_usImg/partners-bg.jpg)  no-repeat bottom/cover;
+}
+/* 上面两个按钮 */
+.teamwork_list {
+    margin-top: 60px;
+}
+.tabTitle {
+    text-align: center;
+}
+.teamwork_list .tab {
+    width: 102px;
+    height: 43px;
+    box-sizing: border-box;
+    border: 2px solid #ededed;
+    color:#a6a6a6;
+    display: inline-block;
+    margin-right: 32px;
+    text-align: center;
+    line-height: 43px;
+    cursor: pointer;
+}
+.click {
+    border: 1px solid #03a9f4 !important;
+    color:#03a9f4 !important;
+}
+
+/* 下面的盒子 */
+#company {
+    display: block;
+}
+.tm-list {
+    width: 978px;
+    margin: 30px auto;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+.tm-list li{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-left: 32px;
+}
+.tm-list li a {
+    height: 114px;
+    display: block;
+    border:1px solid #ededed;
+    text-align: center;
+    padding: 10px 0;
+}
+.tm-list li img {
+    width: 260px;
+    height: 92px;
+}
+#community {
+    display: none;
+}
+/* /下面的盒子 */
+/*/ 合作伙伴 */
+

@@ -1,0 +1,66 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-31 07:51:12
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-31 10:12:31
+*/
+
+div.teamTitle_bg {
+    background: url(../../images/about_usImg/link_us.jpg)  no-repeat bottom/cover;
+}
+
+
+/* adress */
+
+.adress {
+    margin-top: 65px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+.adress h3 {
+    font-size: 48px;
+    height: 50px;
+    margin: 20px 0 45px 0;
+}
+.mapBox > ul {
+    margin-bottom: 55px;
+}
+.mapBox > ul > li{
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 3px;
+}
+.active {
+    background-color: #03a9f4;
+    color:#fff;
+}
+.map {
+    height: 426px;
+    background: url(../../images/about_usImg/map.jpg) no-repeat center/cover;
+    position: relative;
+}
+.mapDes {
+    position: absolute;
+    top: 107px;
+    right: 117px;
+    background-color: #fff;
+    text-align: left;
+    width: 371px;
+    height: 216px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+.mapDes h4 {
+    font-size: 38px;
+    margin: 30px;
+}
+.mapDes p {
+    margin-bottom: 8px;
+}
+/* /adress */

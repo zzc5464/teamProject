@@ -1,0 +1,188 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-30 18:36:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-31 21:07:08
+*/
+
+/* banner */
+
+.banner {
+    height: 520px;
+    background: url(../../images/about_usImg/banner.jpg) bottom no-repeat ;
+    background-size: cover;
+    padding-top: 195px;
+    /* margin-bottom: 60px; */
+    box-sizing: border-box;
+    position: relative;
+}
+.banner .banner_title {
+    margin: 0 auto;
+    width: 1172px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+
+}
+.banner_title h1 {
+    font-size: 48px;
+    margin: 20px 0 10px 0;
+}
+.banner .list {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -490px;
+
+}
+.list li.active {
+    background-color: rgba(0,0,0,.7);
+}
+.list li:hover {
+    background-color: rgba(0,0,0,.5);
+}
+.list li {
+    width: 245px;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    cursor:pointer;
+}
+.list li a {
+    color:white;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* /banner */
+/* videoBox */
+.videoBox {
+    padding-top: 160px;
+    /* margin: 0 auto; */
+}
+.video {
+    background: url(../../images/about_usImg/video.png) no-repeat;
+    width: 750px;
+    height: 400px;
+    margin: 0 auto;
+}
+/* /videoBox */
+
+/* text */
+.text {
+    padding:100px 0 100px 0;
+    width: 750px;
+    margin: 0 auto;
+}
+.text h3,
+.vision h3 {
+    font-size: 48px;
+    color:#383838;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 60px;
+    font-family: "黑体";
+}
+.text p {
+    height: 150px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+}
+.vision {
+    height: 258px;
+    margin-bottom: 105px;
+    box-sizing: border-box;
+    padding-top: 66px;
+    background: url(../../images/about_usImg/1.jpg) no-repeat center/cover;
+}
+.vision h3,
+ .vision p{
+    color:white;
+}
+ .vision p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+ }
+/* /text */
+/* value */
+.value {
+    box-sizing: border-box;
+}
+.value h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+.value_dec li{
+    float: left;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+    margin-right: 38px;
+}
+.value_dec li h4 {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 33px;
+    color: #38383c;
+}
+/* /value */
+/* mission */
+.mission {
+    margin-top: 128px;
+    text-align: center;
+
+}
+.mission h4 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    color: #383838;
+    font-size: 48px;
+}
+.mission p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.mission img {
+    height: 350px;
+    margin: 80px auto;
+}
+/* /mission */
+/* join */
+.join_us {
+    padding: 100px 0;
+    text-align: center;
+}
+.join_us h4 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    color: #383838;
+    font-size: 48px;
+}
+.join_us p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.join_us a {
+    width: 176px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    display: block;
+    background-color: #03a9f4;
+    text-decoration: none;
+    color:white;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+/* /join */

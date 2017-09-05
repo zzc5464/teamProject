@@ -1,0 +1,70 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-30 18:29:32
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-01 07:02:32
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #383838;
+}
+a {
+    text-decoration: none;
+
+}
+img {
+        vertical-align: middle;
+}
+input {
+    border:none;
+}
+.clearfix::after,
+.clearfix::before {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.tac {
+    text-align: center;
+}
+i,s,del,strong {
+    display: block;
+}
+/* 版心 */
+/* 关于我们版心 */
+.w1136 {
+    margin: 0 auto;
+    width: 1136px;
+}
+.w1172 {
+    margin: 0 auto;
+    width: 1172px;
+}
+.w978 {
+    margin: 0 auto;
+    width: 978px;
+}
+.w1050 {
+    margin: 0 auto;
+    width: 1000px;
+}
+.main_color {
+    color:#03a9f4;
+}
