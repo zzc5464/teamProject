@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77284b6a-0c3b-4a90-b76d-3e6cff13aae8" name="默认的" comment="" />
+    <list default="true" id="77284b6a-0c3b-4a90-b76d-3e6cff13aae8" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_us/member.html" afterPath="$PROJECT_DIR$/about_us/member.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/about_us/member.js" afterPath="$PROJECT_DIR$/js/about_us/member.js" />
+    </list>
     <ignored path="合作项目.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,9 +49,11 @@
           <file leaf-file-name="member.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_us/member.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2891859">
-                  <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-                  <folding />
+                <state vertical-scroll-proportion="0.47873634">
+                  <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#1150#2092#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -80,9 +85,15 @@
           <file leaf-file-name="member.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/about_us/member.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.23617512">
-                  <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-                  <folding />
+                <state vertical-scroll-proportion="0.4608295">
+                  <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#172#297#0" expanded="false" />
+                    <element signature="e#322#2943#0" expanded="false" />
+                    <element signature="e#3037#3162#0" expanded="false" />
+                    <element signature="e#3188#5809#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -115,8 +126,8 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/about_us/member.html" />
         <option value="$PROJECT_DIR$/css/about_us/member.css" />
+        <option value="$PROJECT_DIR$/about_us/member.html" />
         <option value="$PROJECT_DIR$/js/about_us/member.js" />
       </list>
     </option>
@@ -245,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.120972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -651,19 +662,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/about_us/member.js">
+    <entry file="file://$PROJECT_DIR$/about_us/member.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23617512">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.47873634">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="e#1150#2092#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_us/member.html">
+    <entry file="file://$PROJECT_DIR$/js/about_us/member.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2891859">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.4608295">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#172#297#0" expanded="false" />
+            <element signature="e#322#2943#0" expanded="false" />
+            <element signature="e#3037#3162#0" expanded="false" />
+            <element signature="e#3188#5809#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

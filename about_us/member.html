@@ -29,5 +29,43 @@
         <div class="photo"></div>
     </div>
     <script src="../js/about_us/member.js"></script>
+    <script>
+        var data = [
+            {
+                lt:"../images/download-android@2x.png",
+                t:"../images/download-dingtalk.png",
+                rt:"../images/download-ios@2x.png",
+                r:"../images/download-qr.png",
+                rb:"../images/download-web222.png",
+                b:"../images/download-wechat.jpg",
+                lb:"../images/qiqiu.jpg",
+                l:"../images/狗1.jpg",
+                center:"../images/center.jpg"
+            },
+            {
+                lt:"../images/download-android@2x.png",
+                t:"../images/download-dingtalk.png",
+                rt:"../images/download-ios@2x.png",
+                r:"../images/download-qr.png",
+                rb:"../images/download-web222.png",
+                b:"../images/download-wechat.jpg",
+                lb:"../images/qiqiu.jpg",
+                l:"../images/狗1.jpg",
+                center:"../images/center.jpg"
+            }
+        ];
+        var zzc = document.getElementById('zzc');
+        var lmf = document.getElementById("lmf");
+        var zzc = new Person({
+            id:zzc,
+            data:data,
+            index:0,
+        });
+        var lmf = new Person1({
+            id:lmf,
+            data:data,
+            index:1,
+        });
+    </script>
 </body>
 </html>
