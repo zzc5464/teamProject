@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-size: 14px;
+  color: #383838;
+}
+a{
+  text-decoration: none;
+}
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+.box h2{
+  margin-top: 70px ;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  color:inherit;
+}
+.wenzi{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color:#a6a6a6;
+  padding:0 30px;
+}
+.box {
+  margin-bottom: 50px;
+}
+.box ul{
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+
+}
+.box li{
+  width: 400px;
+  float: left;
+  margin-top: 80px;
+  box-sizing:border-box;
+}
+.box label{
+  display: inline-block;
+  margin-bottom:55px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.box .zhuomianban{
+  margin-bottom: 55px;
+  width: 382px;
+  height: 150px;
+  background: url("../images/download&source-Images/download-web222.png") no-repeat ;
+  background-size:158px 91px;
+  background-position:50% 50%;
+}
+.btnSmall1{
+  display: inline-block;
+  width: 68px;
+  height: 53px;
+  border:1px solid #c2c2c2;
+  line-height: 58px;
+  border-radius: 6px;
+  padding: 6px 0;
+  color: #565867;
+}
+.btnSmall2{
+  display: inline-block;
+  width: 68px;
+  height: 53px;
+  border:1px solid #c2c2c2;
+  line-height: 58px;
+  border-radius: 6px;
+  padding: 6px 0;
+  color: #565867;
+}
+.iosban{
+  margin-bottom: 55px;
+  width: 382px;
+  height: 150px;
+  background: url("../images/download&source-Images/download-ios@2x.png") no-repeat;
+  background-size:66px 77px;
+  background-position:center center;
+}
+.btnBig{
+  display: inline-block;
+  width: 182px;
+  height: 58px;
+  border:1px solid #c2c2c2;
+  line-height: 58px;
+  border-radius: 6px;
+  padding: 6px 0;
+  color: #565867;
+}
+.anzhuoban{
+  margin-bottom: 55px;
+  width: 382px;
+  height: 150px;
+  background: url("../images/download&source-Images/download-android@2x.png") no-repeat;
+  background-size:66px 77px;
+  background-position:center center;
+}
+.QRban{
+  margin-bottom: 55px;
+  width: 382px;
+  height: 150px;
+  background: url("../images/download&source-Images/download-qr.png") no-repeat;
+  background-size:150px 150px;
+  background-position:center center;
+}
+.weixinban{
+  margin-bottom: 55px;
+  width: 382px;
+  height: 150px;
+  background: url("../images/download&source-Images/download-wechat.jpg") no-repeat;
+  background-size:170px 170px;
+  background-position:center center;
+}
+.dingdingban{
+  margin-bottom: 55px;
+  width: 382px;
+  height: 150px;
+  background: url("../images/download&source-Images/download-dingtalk.png") no-repeat;
+  background-size:170px 170px;
+  background-position:center center;
+}
+.btnSmall1:hover{
+  background-color: #c2c2c2;
+}
+.btnSmall2:hover{
+  background-color: #c2c2c2;
+}
+.btnBig:hover{
+  background-color: #c2c2c2;
+}

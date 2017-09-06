@@ -51,12 +51,12 @@
                 var li2 = document.createElement("li");
                 var str1 = "";
                 str1+= "<a href='#'>";
-                    str1+= "<img src='../images/about_usImg/teamwork/"+ this.data[i].img1 +"'>";
+                    str1+= "<img src='../../images/about_usImg/teamwork/"+ this.data[i].img1 +"'>";
                 str1+= "</a>";
                 li1.innerHTML += str1;
                 var str2 = "";
                 str2+= "<a href='#'>";
-                    str2+= "<img src='../images/about_usImg/teamwork/"+ this.data[i].img2 +"'>";
+                    str2+= "<img src='../../images/about_usImg/teamwork/"+ this.data[i].img2 +"'>";
                 str2+= "</a>";
                 li2.innerHTML += str2;
 

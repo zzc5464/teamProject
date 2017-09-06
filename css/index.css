@@ -325,13 +325,13 @@ fieldset[disabled] .btn-primary.focus {
 
 }
 .slider_box ul li:nth-of-type(1) {
-    background:url(../images/index_slider1.jpg) no-repeat center/cover;
+    background:url(../download&source-Images/index_slider1.jpg) no-repeat center/cover;
 }
 .slider_box ul li:nth-of-type(2) {
-    background:url(../images/index_slider2.jpg) no-repeat center/cover;
+    background:url(../download&source-Images/index_slider2.jpg) no-repeat center/cover;
 }
 .slider_box ul li:nth-of-type(3) {
-    background:url(../images/index_slider3.jpg) no-repeat center/cover;
+    background:url(../download&source-Images/index_slider3.jpg) no-repeat center/cover;
 }
 .slider_box ul li a {
     position: absolute;
@@ -598,7 +598,8 @@ fieldset[disabled] .btn-primary.focus {
     border:none;
     margin-top: 3%;
 }
-.video_mask div {
+.video_mask div a{
+    display: block;
     width: 200px;
     height: 40px;
     line-height:40px;

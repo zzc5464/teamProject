@@ -27,6 +27,7 @@
 .banner_title h1 {
     font-size: 48px;
     margin: 20px 0 10px 0;
+    color:white;
 }
 .banner .list {
     position: absolute;

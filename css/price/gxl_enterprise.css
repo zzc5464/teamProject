@@ -1,0 +1,523 @@
+/*通用样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.color{
+    color:#c2c2c2;
+}
+li{
+    list-style: none;
+}
+/*身体开始*/
+
+/*top开始*/
+.top{
+    width: 100%;
+    height: 692px;
+    background-color: #ececec;
+    position: relative;
+    margin-bottom:75px;
+}
+.top-top{
+    width: 100%;
+    height: 268px;
+    position: absolute;
+    top:95px;
+}
+.top-top-content h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+}
+.top-top-content1{
+    max-width: 790px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: grey;
+    margin-top:30px;
+}
+.top-btn{
+    text-align: center;
+    margin-top:40px;
+}
+.btn{
+    display: inline-block;
+    /*float: left;*/
+    width: 180px;
+    height: 53px;
+    text-align: center;
+    border: 2px solid transparent;
+    line-height: 53px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-left{
+    background-color: #03a9f4;
+    color:#fff;
+    /*border-color: #03a9f4;*/
+    border-radius: 4px;
+    /*cursor: pointer;*/
+
+}
+.btn-right{
+    border-color: #c2c2c2;
+    border-radius: 4px;
+    color: #b28f80;
+    /*cursor: pointer;*/
+}
+.top-picture{
+   /* width: 100%;
+    height: 100%;*/
+    position: relative;
+}
+.top-picture-right{
+    width: 264px;
+    height: 308px;
+    background-image: url(../../images/price-img/top1.png);
+    background-size:290px 308px;
+    position: absolute;
+    left:1085px;
+    top:155px;
+    overflow: hidden;
+}
+.top-picture-left{
+    width: 320px;
+    height: 328px;
+    background-image: url(../../images/price-img/top2.png);
+    background-size:320px 328px;
+    position: absolute;
+    left:-80px;
+    top:280px;
+}
+.top-picture-center{
+    width: 100%;
+    height: 288px;
+    background-image: url(../../images/price-img/top3.png);
+    background-size:100% 288px;
+    overflow: hidden;
+    position: absolute;
+    top:405px;
+}
+/*top结束*/
+
+/*身体部分开始*/
+.head{
+    width: 100%;
+    /*height:4460px;*/
+}
+
+.head-title{
+    text-align: center;
+    margin-bottom: 26px;
+}
+.head-title h1{
+    font-size: 2.3em;
+    font-weight:500;
+}
+/*身体部分轮播图开始*/
+.slideShow{
+    width: 900px;
+    height: 178px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+.slideShow2{
+    width: 820px;
+    height: 178px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slideShow1{
+    width: 1000%;
+    height: 178px;
+    margin: 0 auto;
+    position: relative;
+}
+.slideShow1 img{
+    width: 123px;
+    height: 80px;
+    margin-left: 6px;
+}
+.slideShow-one{
+    width: 820px;
+    height: 178px;
+    float: left;
+}
+.slideShow-one li{
+    float: left;
+    width: 133px;
+    height: 80px;
+    margin-top:10px;
+}
+.slideShow-two{
+    width: 820px;
+    height: 178px;
+    float: left;
+}
+.slideShow-two li{
+    float: left;
+    width: 133px;
+    height: 80px;
+    margin-top:10px;
+}
+.leftArrow{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background: url(../../images/price-img/leftArrow.png) no-repeat center;
+    background-size:30px 68px;
+    top:0;
+    left:0;
+}
+.rightArrow{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background: url(../../images/price-img/rightArrow.png) no-repeat center;
+    background-size:30px 68px;
+    top:0;
+    left:870px;
+}
+/*身体部分轮播图结束*/
+
+/*身体部分第二大块开始*/
+.head-two{
+    width: 100%;
+    height: 765px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.head-two h1{
+    font-size: 2.3em;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.head-two-content{
+    max-width: 790px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: grey;
+    margin-top:30px;
+}
+.headImage{
+    width: 100%;
+    height: 527px;
+    position: absolute;
+    top:238px;
+    text-align: center;
+}
+.head-image{
+    width: 920px;
+    height: 527px;
+}
+/*身体部分第二大块结束*/
+
+/*身体部分第三大块开始*/
+.head-three{
+    width: 100%;
+    height: 726px;
+    position: relative;
+}
+.head-three h1{
+    font-size: 2.3em;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.head-three-content{
+    max-width: 790px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: grey;
+    margin-top:30px;
+}
+.headImage1{
+    width: 100%;
+    height: 488px;
+    position: absolute;
+    top:238px;
+    text-align: center;
+}
+.head-image1{
+    width: 920px;
+    height: 488px;
+}
+/*身体部分第三大块结束*/
+
+/*身体部分第四大块开始*/
+.head-four{
+    width: 100%;
+    height: 685px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.head-four h1{
+    font-size: 2.3em;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.head-four-content{
+    max-width: 790px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: grey;
+    margin-top:30px;
+}
+.headImage2{
+    width: 100%;
+    height: 447px;
+    position: absolute;
+    top:238px;
+    text-align: center;
+}
+.head-image2{
+    width: 920px;
+    height: 447px;
+}
+/*身体部分第四大块结束*/
+
+
+/*身体部分第五大块开始*/
+.head-five{
+    width: 100%;
+    /*height: 1851px;*/
+    position: relative;
+}
+.head-five-text{
+    font-size: 2.3em;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.head-five-content{
+    max-width: 790px;
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: grey;
+    margin-top:30px;
+}
+.head-big-Box{
+    width: 100%;
+    height: 1120px;
+    margin-bottom: 60px;
+}
+.head-center-box{
+    width: 1008px;
+    height: 1120px;
+    margin:0 auto;
+}
+.box{
+    width: 304px;
+    height: 1120px;
+    border-radius: 5px;
+    box-shadow:0 18px 30px rgba(0,0,0,.2);
+}
+.small-box1{
+    border:2px solid #c2c2c2;
+    float: left;
+}
+.small-box1-top{
+    width: 304px;
+    height: 120px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+.small-box1-top h1{
+    text-align: center;
+    font-size: 26px;
+    font-family: inherit;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.small-box1-top-text{
+    text-align: center;
+    padding-top: 4px;
+}
+.small-box1-center{
+    width: 304px;
+    height: 260px;
+    border-bottom: 1px solid #eee;
+}
+.price{
+    width: 304px;
+    height: 85px;
+    margin-top: 40px;
+    position: relative;
+}
+.price-btn{
+    font-size: 15px;
+    font-weight: 700;
+    /*cursor: pointer;*/
+    color:#03a9f4;
+    border-color: #03a9f4;
+    border-radius: 5px;
+    margin-top:40px;
+    margin-left: 62px;
+}
+.symbol{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 126px;
+}
+.money{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 300;
+    padding-left: 146px;
+    padding-top: 22px;
+}
+.small-box1-bottom{
+    width: 304px;
+    height: 456px;
+}
+.bottom-center{
+    width: 210px;
+    height: 390px;
+    padding-left: 0;
+    list-style: none;
+    font-size: 14px;
+    font-family: inherit;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.bottom-center i{
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: grey;
+}
+.bottom-center li{
+    line-height: 20px;
+    margin: 16px 0;
+    padding-left: 13px;
+    position: relative;
+}
+.small-box2{
+    border:2px solid #03a9f4;
+    float: left;
+    margin-left: 43px;
+}
+.small-box2-top{
+    width: 304px;
+    height: 120px;
+    background-color: #03a9f4;
+    border-bottom: 1px solid #eee;
+}
+.small-box2-top h1{
+    text-align: center;
+    font-size: 26px;
+    font-family: inherit;
+    font-weight: 400;
+    padding-top: 30px;
+    color:#fff;
+}
+.small-box2-top-text{
+    text-align: center;
+    padding-top: 4px;
+    color:#fff;
+}
+.small-box2-center{
+    width: 304px;
+    height: 260px;
+    border-bottom: 1px solid #eee;
+}
+.small-box3-top{
+    width: 304px;
+    height: 120px;
+    background-color: #7fdef9;
+    border-bottom: 1px solid #eee;
+}
+.small-box3-top h1{
+    text-align: center;
+    font-size: 26px;
+    font-family: inherit;
+    font-weight: 400;
+    padding-top: 30px;
+    color:#fff;
+}
+.price-btn2{
+    font-size: 15px;
+    font-weight: 700;
+    /*cursor: pointer;*/
+    color:#fff;
+    /*border-color: #03a9f4;*/
+    background-color: #03a9f4;
+    border-radius: 5px;
+    margin-top:40px;
+    margin-left: 62px;
+}
+.symbol2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.date{
+    position: absolute;
+    padding-top: 69px;
+    padding-left: 172px;
+    font-size: 16px;
+    color:#c2c2c2;
+}
+.price-one{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 95px;
+    color: #03a9f4;
+}
+.price-two{
+    margin-top: 25px;
+}
+.money2{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 300;
+    padding-left: 72px;
+    padding-top: 22px;
+}
+.small-box3{
+    border:2px solid #03a9f4;
+    float: right;
+}
+.price-btn2:hover{
+    background-color:#63c0f6;
+}
+.btn-left:hover{
+    background-color:#63c0f6;
+}
+.btn-right:hover{
+    background-color: #fff;
+}
+
+/*身体部分第五大块结束*/

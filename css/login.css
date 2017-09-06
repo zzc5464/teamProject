@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fl {
+  flaot: left;
+}
+
+.fr {
+  flaot: right;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+
+
+ul li {
+  list-style: none;
+}
+input,button {
+    border:none;
+}
+.father{
+  position: relative;
+}
+.topp{
+  height: 160px;
+  /*background-color: pink;*/
+}
+.none{
+  height:90px;
+}
+.tubiao{
+  height: 60px;
+  /*background-color: skyblue;*/
+}
+.team{
+   width:202px;
+  height: 39px;
+  margin:0 auto;
+  background-color: slateblue;
+  background: url(../images/login-img/logo.svg)center/contain no-repeat;
+}
+.import{
+  height:363px;
+  /*background-color: pink;*/
+}
+.log{
+  width:340px;
+   height:363px;
+  margin:0 auto;
+  /*background-color: hotpink;*/
+}
+.email{
+  padding-bottom: 25px;
+}
+.controlemail{
+  height: 46px;
+  width: 340px;
+  line-height: 46px;
+  border: solid 1px grey;
+  border-radius: 3px;
+  font-size: 16px;
+  padding-left:15px;
+  box-sizing: border-box;
+}
+ .email-1{
+   position: relative;
+ }
+
+.eye{
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  position: absolute;
+  top:15px;
+  left:315px;
+  opacity:.5;
+  background: url(../images/login-img/眼睛.svg) center/contain no-repeat;
+}
+.eye:hover{
+  opacity:1;
+  color:#03a9f4;
+}
+
+input::-webkit-input-placeholder{
+  color: #000;opacity:.3;
+
+}
+
+
+.controlemail-1 {
+  height: 46px;
+  width: 340px;
+  line-height: 46px;
+  border: solid 1px grey;
+  border-radius: 3px;
+  font-size: 16px;
+  padding-left:15px;
+  box-sizing: border-box;
+
+}
+
+
+
+.forget{
+  height: 30px;
+  width: 340px;
+  /*background-color: green;*/
+
+
+}
+ .forget .pass {
+   color:#000;
+   opacity:.4;
+   font-size:14px;
+   float: right;
+   line-height:30px;
+ }
+
+
+
+ .submit{
+   width: 340px;
+   height: 50px;
+   /*background-color: orange;*/
+
+ }
+ .submit .btn{
+   width: 340px;
+   height: 46px;
+   line-height:46px;
+   border-radius: 5px ;
+   background-color: #03a9f4;
+   color:#fff;
+   font-size:16px;
+
+ }
+ .line{
+   padding-top:5px;
+   width: 340px;
+   height:30px;
+   background-color:#fff;
+   border-bottom: 1px solid grey;
+ }
+ .tab{
+   width: 340px;
+   height: 46px;
+   font-size:14px;
+   text-align: center;
+   line-height:50px;
+ }
+
+  .tab a{
+    color:#03a9f4;
+  }
+ .account a{
+    color:#03a9f4;
+ }
+ .sign{
+   color:#000;
+   opacity:.5;
+   font-size:14px;
+   height: 30px;
+ }

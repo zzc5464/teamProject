@@ -1,0 +1,222 @@
+.head-big{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.head-one{
+    width: 100%;
+    height: 460px;
+    background-image: url(../images/solution-img/jumbotron.jpg);
+    background-size:100% 460px;
+}
+.head-one-text h1{
+    font-size: 48px;
+    padding-top:140px;
+}
+.head-one-text p{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: grey;
+    line-height: 28px;
+    margin-top:60px;
+    font-family: inherit;
+}
+.head-two{
+    width: 100%;
+    height: 378px;
+    margin-top:117px;
+    border-top:1px solid #d1d1d1;
+}
+.head-two-text{
+    position: relative;
+    top: -15px;
+}
+.head-two-text h1{
+    display: inline-block;
+    width: 280px;
+    height: 63px;
+    margin: 0 auto;
+    font-size: 40px;
+    background-color: #fff;
+    color: #383838;
+    font-weight: 200;
+}
+.head-two-text p{
+    font-size: 18px;
+    font-weight: 200;
+    color: grey;
+    margin-top:67px;
+}
+.head-two-pic{
+    width: 792px;
+    height: 162px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.pic-left{
+    width: 396px;
+    height: 166px;
+    float: left;
+    position: relative;
+}
+.text-img{
+    width: 50px;
+    height: 50px;
+    margin-left:30px;
+}
+.pic-left-one{
+    width: 226px;
+    position:absolute;
+    top:0;
+    left:110px;
+}
+.text-h3{
+    color: #383838;
+    font-size: 28px;
+}
+.text-h3 a{
+    color: #383838;
+}
+.text-p{
+    font-size: 14px;
+    color: grey;
+    margin-top:10px;
+    line-height: 25px;
+}
+.text-a{
+    color: #03a9f4;
+    font-size:12px;
+}
+.text-a:hover{
+    color:#63c0f6;
+}
+.pic-right{
+    width: 396px;
+    height: 166px;
+    position: relative;
+}
+.head-three{
+    width: 100%;
+    height: 574px;
+    margin-top:117px;
+    border-top:1px solid #d1d1d1;
+}
+.head-three-pic{
+    width: 792px;
+    height: 162px;
+    margin: 0 auto;
+    margin-top:30px;
+}
+.head-four{
+    width: 100%;
+    height: 378px;
+    margin-top:117px;
+    border-top:1px solid #d1d1d1;
+}
+.head-five{
+    width: 100%;
+    height: 544px;
+    margin-top:117px;
+    border-top:1px solid #d1d1d1;
+}
+.head-six{
+    width: 100%;
+    height: 378px;
+    margin-top:117px;
+    border-top:1px solid #d1d1d1;
+}
+.head-seven{
+    width: 100%;
+    margin-top:117px;
+}
+.text-h1{
+    margin-bottom: 40px;
+    font-family: 'PingFang SC',sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    color: #383838;
+    letter-spacing: 0;
+    line-height: 63px;
+}
+.pic-ul{
+    display: block;
+    width: 790px;
+    height: 270px;
+    margin: 0 auto;
+}
+.pic-ul li{
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin: 20px 0 20px 10px;
+}
+.pic-ul li img{
+    width: 120px;
+    height: 50px;
+}
+.head-seven-two{
+    width: 100%;
+    margin-top:117px;
+    background-color: #f8f8f8;
+}
+.shuiJiao{
+    padding-top: 135px;
+}
+.top-btn{
+    text-align: center;
+    margin-top:40px;
+}
+.btn{
+    display: inline-block;
+    /*float: left;*/
+    /*width: 180px;*/
+    /*height: 53px;*/
+    text-align: center;
+    border: 2px solid transparent;
+    line-height: 53px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-left{
+    width: 180px;
+    height: 53px;
+    background-color: #03a9f4;
+    color:#fff;
+    /*border-color: #03a9f4;*/
+    border-radius: 4px;
+    /*cursor: pointer;*/
+
+}
+.btn-right{
+    width: 126px;
+    height: 53px;
+    border-color: #c2c2c2;
+    border-radius: 4px;
+    color: #b28f80;
+    margin-left:30px;
+    /*cursor: pointer;*/
+}
+.btn-left:hover{
+    background-color:#63c0f6;
+}
+.btn-right:hover{
+    background-color: #fff;
+}
+.Gun{
+    width: 440px;
+    height: 76px;
+    margin: 35px auto;
+    border-top: 1px solid #d1d1d1;
+}
+.Gun p{
+    padding-top: 25px;
+    font-size: 18px;
+    color: #383838;
+}
+.Gun h3{
+    font-size: 36px;
+    font-weight: 400;
+    color: #383838;
+    line-height: 48px;
+}
